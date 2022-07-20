@@ -1,5 +1,5 @@
-**ORGANIZAÇÃO DAS TAREFAS:**
 
+**COMO FORAM ORGANIZAS DAS TAREFAS:**
 - **Ferramentas e Tecnologias Utilizadas:**
     - VS Code;
     - **VTEX:**
@@ -17,7 +17,7 @@
     - GraphQL;
     - React; 
     - Node.js;
-    - HTML, CSS, JS, TS;
+    - HTML, CSS, JS e TS;
     - Markdown;
     - Whimsical;
     - Git e GitHub;
