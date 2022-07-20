@@ -1,4 +1,4 @@
-**Organização das Tarefas:**
+**ORGANIZAÇÃO DAS TAREFAS:**
 
 - **Ferramentas e Tecnologias Utilizadas:**
     - VS Code;
@@ -22,7 +22,7 @@
     - Whimsical;
     - Git e GitHub;
 
-- **Planejamento :**
+- **Planejamento:**
     - Documentação;
     - Fluxograma;
     - Workspace de Planejamento:
