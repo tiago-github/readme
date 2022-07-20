@@ -2,7 +2,7 @@
 
 - **Ferramentas e Tecnologias Utilizadas:**
     - VS Code;
-    - VTEX
+    - **VTEX:**
         - Toolbelt;
         - Master Data v2;
         - VTEX IO;
@@ -10,7 +10,7 @@
           - Orders Feed; 
           - ???;
 
-    - **AWS**
+    - **AWS:**
         - **???**
     - Postman;
     - Insomnia;
@@ -25,26 +25,25 @@
 - **Planejamento:**
     - Documentação;
     - Fluxograma;
-    - Workspace de Planejamento:
+    - **Workspace de Planejamento:**
         - Resumos;
         - Geração e distribuição de tarefas;
         - Links úteis;
         - Check List;
         - Quadro de Dúvidas;
-    - Fluxo de desenvolvimento:
+    - **Fluxo de desenvolvimento:**
         - Desenvolvimento de Workspace com SKUs e processamento de compras (funcional);
         - Desenvolvimento de um tema próprio;
         - Componente Carteira de Pontos para exibir o saldo atualizado no Fronteirense;
-    - Banco de Dados:
+    - **Banco de Dados:**
         - Criação da entidade Wallet no Master Data v2 da VTEX;
         - Relacionamento da entidade  Wallet com a entidade Client por meio de uma Trigger que cria um documento na Wallet associando o userId;
-    - APIs - para criar:
+    - **APIs - para criar:**
         - API de crédito e atualização de pontos;
         - API de débito e atualização de pontos;
-    - APIs - para implementar:
+    - **APIs - para implementar:**
         - Orders Feed;
-    - Prova de Conceito:
+    - **Prova de Conceito:**
         - ???
-    - AWS:
+    - **AWS:**
         - ???
-
