@@ -1,15 +1,15 @@
 <h1 align="center">Hiring Coders #3 - Fase 3</h1>
 <h2 align="center">DreamScape - Grupo 05</h2>
 
-Membros da Equipe:
-* Amanda de Almeida Fonseca;
-* Michel Negrão;
-* Phelipe Nogueira de Lima;
-* Tiago Feitoza de Oliveira;
+## Equipe
+* [Amanda de Almeida Fonseca](https://github.com/amandaalmeida20)
+* [Michel Negrão](https://www.linkedin.com/in/michelnegrao/)
+* [Phelipe Nogueira de Lima](https://www.linkedin.com/in/phenogueira/)
+* [Tiago Feitoza de Oliveira](https://www.linkedin.com/in/tiago-feitoza-oliveira/)
 
 <img src="https://dreamscape.vtexassets.com/assets/vtex.file-manager-graphql/images/923aab7b-457b-4a72-90f9-b4641f810fc2___ffe6b2b6cf146ec503007dc90e070d76.png"/>
 
-<p align="center">
+<p hidden align="center">
   <img src="https://img.shields.io/badge/"/>
   <img src="https://img.shields.io/badge/"/>
   <img src="https://img.shields.io/badge/"/>
