@@ -7,17 +7,15 @@
   <img src="https://img.shields.io/badge/"/>
 </p>
 
-## Sumário:
-:small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)<br>
-:small_blue_diamond: [Principais Objetivos do projeto](#principais-objetivos)<br>
-:small_blue_diamond: [Pré-requisitos](#pré-requisitos)<br>
-:small_blue_diamond: [Como executar a aplicação](#executando-a-aplicação)<br>
-:small_blue_diamond: [Workaround](#workaround)<br>
-:small_blue_diamond: [Paleta de cores](#paleta-de-cores)<br>
-:small_blue_diamond: [Agradecimentos](#agradecimentos)<br>
+# Desafio da Semifinal
+## Sumário
+:small_blue_diamond: [Cenário](#Cenário)<br>
+:small_blue_diamond: [Organização das Tarefas](#Organização-das-Tarefas)<br>
+:small_blue_diamond: [Pré-requisitos de Uso](#Pré-requisitos-de-Uso)<br>
+:small_blue_diamond: [Instruções de Uso](#Instruções-de-Uso)<br>
+:small_blue_diamond: [Agradecimentos](#Agradecimentos)<br>
 
-## Desafio da Semifinal
-### Cenário:
+## Cenário
 Maria tem uma loja e quer implementar um modelo de recompensa:
 * A cada R$1,00 gasto o sistema deve gerar 1 ponto de recompensa;
 * Todo consumidor precisa saber quantos pontos tem em sua carteira virtual;
@@ -32,7 +30,7 @@ Maria tem uma loja e quer implementar um modelo de recompensa:
     - Materiais de Referência;
     - Quadro de Dúvidas;
 - Fluxo de Desenvolvimento:
-    - Desenvolvimento de um Workspace com SKUs e processamento de compras (funcional);
+    - Desenvolvimento de um Workspace funcional com SKUs e processamento de compras;
     - Construção de um tema próprio;
     - Implementação de um Componente de Carteira de Pontos para exibir o saldo atualizado no Front-End da Loja;
 - Banco de Dados:
@@ -48,23 +46,25 @@ Maria tem uma loja e quer implementar um modelo de recompensa:
 - Documentação do Projeto;
 - Fluxograma do Projeto.
 
-## Pré-requisitos de Uso
-### Conhecimentos em
-- HTML, CSS, JS e TS;
-- Node.js;
-- React;
-- VTEX IO;
-- AWS.
-### Ter login de acesso ao Workspace da Casa DreamScape
+## Pré-Requisitos
+- Ter uma conta VTEX;
 
 ## Instruções de Uso
 - Instale:
     - Node.js;
     - Yarn;
     - VTEX Toolbelt;
-- Use ou Crie um Workspace de Desenvolvimento;
+- Use ou Crie um Workspace VTEX;
 - Clone o projeto para uma máquina local;
-- Execute o comando `vtex link` na raiz do projeto clonado.
+- Abra o Terminal de Comandos de sua preferência:
+  - Acesse a pasta FrontEnd e execute o comando `vtex link`;
+  - Acesse a pasta BackEnd e execute o comando `vtex link`;
+  - Acesse a pasta WalletAPP e execute o comando `vtex link`.
+- Faça o login da sua conta VTEX;
+- Acesse a página da loja pelo navegador;
+- Cadastrar um conta na loja;
+- Realizar o processo de compra fictício;
+- Checar o saldo no contador de pontos;
 
 ## Agradecimentos
 Agradeçemos a toda a rede de colaboração que fez o Hiring Coders #3 acontecer e ser um sucesso:     
