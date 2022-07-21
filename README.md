@@ -1,5 +1,12 @@
 <h1 align="center">Hiring Coders #3 - Fase 3</h1>
 <h2 align="center">DreamScape - Grupo 05</h2>
+
+Membros da Equipe:
+* Amanda de Almeida Fonseca;
+* Michel Negrão;
+* Phelipe Nogueira de Lima;
+* Tiago Feitoza de Oliveira;
+
 <img src="https://dreamscape.vtexassets.com/assets/vtex.file-manager-graphql/images/923aab7b-457b-4a72-90f9-b4641f810fc2___ffe6b2b6cf146ec503007dc90e070d76.png"/>
 
 <p align="center">
@@ -44,8 +51,6 @@ Maria tem uma loja e quer implementar um modelo de recompensa:
     - API de débito e atualização de pontos;
 - Implementação de APIs da VTEX:
     - Orders Feed;
-- Back-End na AWS:
-    - ???;
 - Documentação do Projeto;
 - Fluxograma do Projeto.
 
@@ -64,13 +69,15 @@ Maria tem uma loja e quer implementar um modelo de recompensa:
   - Acesse a pasta BackEnd e execute o comando `vtex link`;
   - Acesse a pasta WalletAPP e execute o comando `vtex link`.
 - Faça o login da sua conta VTEX;
+- Acesse: https://dreamscape.myvtex.com/admin/apps/vtex.orders-broadcast/setup
+  - Digite o nome do Workspace vtex do projeto e click em salvar;
 - Acesse a página da loja pelo navegador;
 - Verifique o saldo inicial no contador de pontos;
 - Cadastre uma conta na loja;
 - Realize uma compra;
 - Verifique o saldo atualizado no contador de pontos;
 
-## Instruções de Teste da API de Consulta de Saldo 
+## Instruções de Teste para a API de Consulta de Saldo 
 - Fazer uma requisição POST para o endpoint "/_v/app/clientWallet" passando id do usuário no body;
 - Exemplo de requisição:
 ```
@@ -78,12 +85,13 @@ headers: {
   "Content-Type": "application/json",
   "Accept": "application/json",
   "X-VTEX-API-AppKey": "vtexappkey-dreamscape-FMYVGX",
-  "X-VTEX-API-AppToken": "BJAZBUUCECOLTNJLGRQDTJIILLWRQSTKJYUKLVIJBOSHOJSEXVLMJTDPXAUMNSRDTXEOUFZTBZRDVOXFTTJGYVXUWUPIOXENMWGDXXVQHASKUJWGDFAXNHLRBFEJPURG"
+  "X-VTEX-API-AppToken": ""
 },
 body: {
   "userId": "!ID"
 }
 ```
+Obs.: Gerar AppToken ou usar o AppToken presente no código
 
 ## Agradecimentos
 Agradeçemos a toda a rede de colaboração que fez o Hiring Coders #3 acontecer e ser um sucesso:     
