@@ -1,4 +1,7 @@
-<h1 align="center">Hiring Coders #3 - Fase 3 - Desafio da Semifinal</h1>
+<h1 align="center">Hiring Coders #3 - Fase 3</h1>
+<h2 align="center">DreamScape - Grupo 05</h2>
+<img src="https://dreamscape.vtexassets.com/assets/vtex.file-manager-graphql/images/923aab7b-457b-4a72-90f9-b4641f810fc2___ffe6b2b6cf146ec503007dc90e070d76.png"/>
+
 <p align="center">
   <img src="https://img.shields.io/badge/"/>
   <img src="https://img.shields.io/badge/"/>
@@ -49,7 +52,7 @@ Maria tem uma loja e quer implementar um modelo de recompensa:
 ## Pré-Requisitos
 - Ter uma conta VTEX;
 
-## Instruções de Uso
+## Instruções de Teste da Loja
 - Instale:
     - Node.js;
     - Yarn;
@@ -62,9 +65,15 @@ Maria tem uma loja e quer implementar um modelo de recompensa:
   - Acesse a pasta WalletAPP e execute o comando `vtex link`.
 - Faça o login da sua conta VTEX;
 - Acesse a página da loja pelo navegador;
-- Cadastrar um conta na loja;
-- Realizar o processo de compra fictício;
-- Checar o saldo no contador de pontos;
+- Verifique o saldo inicial no contador de pontos;
+- Cadastre uma conta na loja;
+- Realize uma compra;
+- Verifique o saldo atualizado no contador de pontos;
+
+## Instruções de Teste das APIs
+-
+-
+-
 
 ## Agradecimentos
 Agradeçemos a toda a rede de colaboração que fez o Hiring Coders #3 acontecer e ser um sucesso:     
