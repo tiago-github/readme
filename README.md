@@ -70,10 +70,20 @@ Maria tem uma loja e quer implementar um modelo de recompensa:
 - Realize uma compra;
 - Verifique o saldo atualizado no contador de pontos;
 
-## Instruções de Teste das APIs
--
--
--
+## Instruções de Teste da API de Consulta de Saldo 
+- Fazer uma requisição POST para o endpoint "/_v/app/clientWallet" passando id do usuário no body;
+- Exemplo de requisição:
+```
+headers: {
+  "Content-Type": "application/json",
+  "Accept": "application/json",
+  "X-VTEX-API-AppKey": "vtexappkey-dreamscape-FMYVGX",
+  "X-VTEX-API-AppToken": "BJAZBUUCECOLTNJLGRQDTJIILLWRQSTKJYUKLVIJBOSHOJSEXVLMJTDPXAUMNSRDTXEOUFZTBZRDVOXFTTJGYVXUWUPIOXENMWGDXXVQHASKUJWGDFAXNHLRBFEJPURG"
+},
+body: {
+  "userId": "!ID"
+}
+```
 
 ## Agradecimentos
 Agradeçemos a toda a rede de colaboração que fez o Hiring Coders #3 acontecer e ser um sucesso:     
